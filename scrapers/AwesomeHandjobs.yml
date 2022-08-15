@@ -24,4 +24,6 @@ xPathScrapers:
       Performers:
         Name: //a[@class='font-medium cursor-pointer underline']
 
+driver:
+  useCDP: true
 # Last Updated August 15, 2022
