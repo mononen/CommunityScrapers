@@ -22,7 +22,12 @@ xPathScrapers:
       # Tags:
       #   Name:
       Performers:
-        Name: //a[@class='font-medium cursor-pointer underline']
+        Name: 
+          selector: //a[@class='font-medium cursor-pointer underline']
+          postProcess:
+            - replace:
+              - regex: ',+'
+                with: ''
 
 driver:
   useCDP: true
