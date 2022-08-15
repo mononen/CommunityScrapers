@@ -1,0 +1,26 @@
+name: "AwesomeHandjobs"
+sceneByURL:
+  - action: scrapeXPath
+    url:
+      - https://awesomehandjobs.com/videos
+    scraper: sceneScraper
+xPathScrapers:
+  sceneScraper:
+    scene:
+      Title: //span[@class='text-xl font-medium text-grey-yoda block title-content dark:text-snow-dp']/text()
+      Details:
+      Date:
+        selector: //span[@class='text-xs text-grey-davos leading-4 dark:text-snow-dd']/text()
+        postProcess:
+          - parseDate: January 2, 2006
+      Image:
+      Studio:
+        Name:
+      Movies:
+        Name:
+      Tags:
+        Name:
+      Performers:
+        Name: //a[@class='font-medium cursor-pointer underline']/text()
+
+# Last Updated August 15, 2022
