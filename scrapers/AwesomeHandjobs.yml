@@ -14,8 +14,9 @@ xPathScrapers:
         postProcess:
           - parseDate: January 2, 2006
       # Image:
-      # Studio:
-      #   Name:
+      Studio:
+        Name:
+          fixed: Awesome Handjobs
       # Movies:
       #   Name:
       # Tags:
