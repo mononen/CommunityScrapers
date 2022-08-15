@@ -7,10 +7,10 @@ sceneByURL:
 xPathScrapers:
   sceneScraper:
     scene:
-      Title: //span[@class='text-xl font-medium text-grey-yoda block title-content dark:text-snow-dp']/text()
+      Title: //span[@class='text-xl font-medium text-grey-yoda block title-content dark:text-snow-dp']
       # Details:
       Date:
-        selector: //span[@class='text-xs text-grey-davos leading-4 dark:text-snow-dd']/text()
+        selector: //span[@class='text-xs text-grey-davos leading-4 dark:text-snow-dd']
         postProcess:
           - parseDate: January 2, 2006
       # Image:
@@ -21,6 +21,6 @@ xPathScrapers:
       # Tags:
       #   Name:
       Performers:
-        Name: //a[@class='font-medium cursor-pointer underline']/text()
+        Name: //a[@class='font-medium cursor-pointer underline']
 
 # Last Updated August 15, 2022
