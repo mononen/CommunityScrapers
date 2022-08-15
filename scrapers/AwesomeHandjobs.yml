@@ -2,7 +2,7 @@ name: "AwesomeHandjobs"
 sceneByURL:
   - action: scrapeXPath
     url:
-      - https://awesomehandjobs.com/videos
+      - https://awesomehandjobs.com/
     scraper: sceneScraper
 xPathScrapers:
   sceneScraper:
